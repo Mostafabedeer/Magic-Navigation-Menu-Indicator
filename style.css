@@ -126,7 +126,7 @@ body {
   height: 2rem;
   background-color: transparent;
   border-top-right-radius: 2rem;
-  box-shadow: 1px -15px 0 0 var(--background-main-color);
+  box-shadow: 0 -15px 0 0 var(--background-main-color);
 }
 
 .indicatior::after {
@@ -138,7 +138,7 @@ body {
   height: 2rem;
   background-color: transparent;
   border-top-left-radius: 2rem;
-  box-shadow: -1px -15px 0 0 var(--background-main-color);
+  box-shadow: 0 -15px 0 0 var(--background-main-color);
 }
 
 .navigation ul li:nth-child(1).active ~ .indicatior {
